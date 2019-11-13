@@ -1,0 +1,5 @@
+news_sites:
+  elcolombiano:
+    url: https://www.elcolombiano.com/
+  eltiempo:
+    url: https://www.eltiempo.com/
