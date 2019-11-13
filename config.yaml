@@ -1,5 +1,17 @@
 news_sites:
   elcolombiano:
     url: https://www.elcolombiano.com/
+    queries:
+      homepage_article_links: '.article a'
   eltiempo:
     url: https://www.eltiempo.com/
+    queries:
+      homepage_article_links: '.title-container a'
+  eluniversal:
+    url: https://www.eluniversal.com.co/
+    queries:
+      homepage_article_links: '.noticias a'
+  elpais:
+    url: https://elpais.com/elpais/portada_america.html
+    queries:
+      homepage_article_links: '.articulo-titulo a'

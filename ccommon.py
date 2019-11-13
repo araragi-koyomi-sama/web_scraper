@@ -6,4 +6,4 @@ def config():
         with open('config.yaml','r') as f:
             __config=yaml.load(f,Loader=yaml.FullLoader)
     return __config
-        
+a=config()
